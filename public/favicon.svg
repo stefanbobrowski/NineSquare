@@ -1,0 +1,24 @@
+<svg
+  version="1.0"
+  id="Layer_1"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="0 0 64 64"
+  enable-background="new 0 0 64 64"
+  xml:space="preserve"
+  fill="#000000"
+>
+  <!-- Background Rectangle -->
+  <rect fill="#000" width="64" height="64" />
+
+  <!-- Grid -->
+  <text x="7" y="15" font-size="16" fill="#FFF">1</text>
+  <text x="26" y="15" font-size="16" fill="#FFF">2</text>
+  <text x="48" y="15" font-size="16" fill="#FFF">3</text>
+  <text x="6" y="32" font-size="16" fill="#FFF">4</text>
+  <text x="26" y="32" font-size="16" fill="#FFF">5</text>
+  <text x="48" y="32" font-size="16" fill="#FFF">6</text>
+  <text x="6" y="48" font-size="16" fill="#FFF">7</text>
+  <text x="26" y="48" font-size="16" fill="#FFF">8</text>
+  <text x="48" y="48" font-size="16" fill="#FFF">9</text>
+</svg>

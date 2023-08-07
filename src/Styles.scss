@@ -1,0 +1,68 @@
+body {
+  color: #FFF;
+  outline-color: #FFF;
+  border-color: #FFF;
+  background-color: #000;
+
+}
+
+.board {
+  &.winner {
+    .cell {
+
+      border: 1px solid gold;
+      animation: glow linear 3s 3;
+
+
+      &.active {
+        border: 1px solid gold;
+        outline: 0px;
+      }
+    }
+  };
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 3px -3px gold;
+  }
+  50% {
+    box-shadow: 0 0 3px 3px gold;
+  }
+  100% {
+    box-shadow: 0 0 3px -3px gold;
+  }
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #FFF;
+  z-index: 1;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &.active {
+    border: 1px solid red;
+    outline: 1px solid red;
+    z-index: 3;
+  }
+}
+
+.red {
+  color: red;
+}
+
+.gold {
+  color: gold;
+}
